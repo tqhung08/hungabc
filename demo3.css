@@ -1,0 +1,25 @@
+.image{
+    background-image: url(https://mobirise.com/extensions/woodm4/assets/images/background18.jpg);
+    height: 100vh;
+}
+.mazda{
+    margin-left: 50%;
+    padding: 50px 20px;
+    color:#fff;
+}
+h1{
+    font-family: Reem Kufi;
+    font-size:70px;
+    margin:0;
+}
+p span{
+    font-family: Mulish;
+}
+span{
+    font-size:15px;
+    line-height: 20px;
+}
+p{
+    font-size:20px;
+    
+}
