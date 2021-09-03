@@ -52,7 +52,7 @@ ul li:hover .sub-menu{
 .hakucho:hover{
     border-bottom:solid 1px #b7976a;
 }
-img{
+.image{
     height: 50px;
     padding-top: 15px;
 }
@@ -80,7 +80,7 @@ img{
     width: 100%;
     height: 100%;
 }
-.image{
+.image-1{
     background-image: url(https://mobirise.com/extensions/woodm4/assets/images/background18.jpg);
     background-size: cover;
     position: relative;
