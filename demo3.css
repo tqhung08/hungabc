@@ -105,6 +105,9 @@ span{
 p{
     font-size:20px;
 }
+.icon-asum{
+    display: none;
+}
 @media screen and (max-width:768px) {
     .kia{
         background-color: red;
@@ -126,6 +129,31 @@ p{
     .mazda{
         text-align: center;
         margin: 0;
+    }
+    .kia{
+        position: relative;
+    }
+    .ford{
+        position: absolute;
+        top:75px;
+        left: 0;
+        flex-direction: column;
+        background-color: red;
+        width: 100%;
+        display:none;
+    }
+    .woa{
+        flex-direction: column;
+    }
+    .icon-asum{
+        display: block;
+        margin: 23px 15px;
+    }
+    .icon-mobile{
+        font-size:20px;
+    }
+    .icon-asum:hover .ford{
+        display:block;
     }
 }
 @media screen and (max-width : 992px) and (min-width: 768px){
