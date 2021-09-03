@@ -123,6 +123,10 @@ p{
         margin: 0 10px;
         font-size: 18px
     }
+    .mazda{
+        text-align: center;
+        margin: 0;
+    }
 }
 @media screen and (max-width : 992px) and (min-width: 768px){
     .kia{
@@ -141,5 +145,11 @@ p{
     .woo{
         margin: 0 20px;
         font-size: 30px
+    }
+    .mazda{
+        margin-left:20px;
+    }
+    h1{
+        font-size:60px
     }
 }
