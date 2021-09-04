@@ -53,6 +53,7 @@
 .font-sub1{
     display: none;
 }
- .icon-plus:hover .font-sub1{
+.icon-font:hover .font-sub1{
      display:block;
+     color: #fff;
  }
