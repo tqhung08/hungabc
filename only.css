@@ -38,9 +38,7 @@
 .one{
     padding: 15px 0;
 }
-.icon-font{
-    border-bottom: solid 1px #b7976a;
-}
+
 .fas{
     color:#b7976a;
     padding-top: 15px;
@@ -49,6 +47,7 @@
     display:flex;
     width: 100%;
     justify-content: space-between;
+    border-bottom: solid 1px #b7976a;
 }
 .font-sub1{
     display: none;
@@ -56,4 +55,24 @@
 .icon-font:hover .font-sub1{
      display:block;
      color: #fff;
+     padding: 10px 0 15px;
+ }
+ @media screen and (max-width : 992px) and (min-width : 768px){
+  .aram{
+      padding:0 30px;
+  }
+    .aram-sub1{
+      margin: 50px;
+      padding: 0;
+  }
+  .aram-sub2{
+     margin: 50px;
+     padding: 0;
+}
+ }
+ @media screen and (max-width:768px){
+     .aram{
+        flex-direction: column-reverse;
+        
+     }
  }
