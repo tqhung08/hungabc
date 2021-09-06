@@ -71,8 +71,18 @@
 }
  }
  @media screen and (max-width:768px){
-     .aram{
-        flex-direction: column-reverse;
-        
-     }
+    .aram{
+        flex-wrap: wrap;
+        height:auto;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .aram-sub1{
+        width: 100%;
+        padding: 0;
+    }
+    .aram-sub2{
+        width: 100%;
+        padding: 0;
+    }
  }
