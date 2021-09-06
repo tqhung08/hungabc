@@ -108,6 +108,62 @@ p{
 .icon-mobile{
     display: none;
 }
+.only{
+    padding-top: 20px;
+    background-color:#656b50;
+}
+.aram{
+    display: flex;
+    padding: 0 30px;
+    margin: 0 250px;
+}
+.aram-sub1{
+    width: 50%;
+    margin: 100px; 
+}
+.aram-sub2{
+    width: 50%;
+    margin: 50px;
+}
+.white-letters{
+    color: white;
+}
+.conten-x{
+    font-size:60px;
+    padding: 100px 0 30px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+.conten-y{
+    font-size:20px;
+    font-family: 'Muli', sans-serif;
+    font-weight:100;
+}
+.image-6{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.one{
+    padding: 15px 0;
+}
+
+.fas{
+    color:#b7976a;
+    padding-top: 15px;
+}
+.font-sub{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: solid 1px #b7976a;
+}
+.font-sub1{
+    display: none;
+}
+.icon-font:hover .font-sub1{
+     display:block;
+     color: #fff;
+     padding: 10px 0 15px;
+ }
 @media screen and (max-width:768px) {
     .kia{
         background-color: red;
@@ -155,6 +211,20 @@ p{
     .icon-asum:hover .ford{
         display:block;
     }
+    .aram{
+        flex-wrap: wrap;
+        height:auto;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .aram-sub1{
+        width: 100%;
+        padding: 0;
+    }
+    .aram-sub2{
+        width: 100%;
+        padding: 0;
+    }
 }
 @media screen and (max-width : 992px) and (min-width: 768px){
     .kia{
@@ -180,4 +250,15 @@ p{
     h1{
         font-size:60px
     }
+    .aram{
+        padding:0 30px;
+    }
+      .aram-sub1{
+        margin: 50px;
+        padding: 0;
+    }
+    .aram-sub2{
+       margin: 50px;
+       padding: 0;
+  }
 }
