@@ -127,13 +127,23 @@ h1{
     color:gray;
     font-family: 'Muli', sans-serif;
 }
+.part-six{
+    padding: 100px 0;
+}
 .sub-part-six{
     display:flex;
+    padding: 0 150px;
 }
 .image-5{
-    width: 200px;
+    object-fit:cover;
+    width: 400px;
     height: 300px;
-    object-fit: cover;
+    margin: 10px;
+}
+.money{
+    font-size: 30px;
+    padding-left: 20px;
+     font-family: 'Muli', sans-serif;
 }
 .only{
     padding-top: 20px;
