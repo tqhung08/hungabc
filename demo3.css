@@ -111,7 +111,8 @@ h1{
     display: none;
 }
 .Handmade{
-   padding: 200px;
+   padding: 200px 200px 50px;
+   background: #f1eeea;
 }
 .hwp{
     text-align: center;
@@ -129,10 +130,11 @@ h1{
 }
 .part-six{
     padding: 100px 0;
+    background: #f1eeea;
 }
 .sub-part-six{
     display:flex;
-    padding: 0 150px;
+    padding: 0 180px;
 }
 .image-5{
     object-fit:cover;
