@@ -264,6 +264,13 @@ h1{
         width: 100%;
         padding: 0;
     }
+    .font-handmade{
+        width: 100%;
+    }
+    .image-5{
+        width: 300px;
+        height: 200px;
+    }
 }
 @media screen and (max-width : 992px) and (min-width: 768px){
     .kia{
