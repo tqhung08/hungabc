@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.contener{
+    width: 100%;
+    max-width: 2100px;
+    text-align: center;
+}
 .kia{
     display:flex;
     background: #f1eeea;
@@ -90,8 +95,10 @@ ul li:hover .sub-menu{
 }
 .mazda{
     margin-left: 50%;
-    padding: 300px 30px 300px 0;
+    padding: 200px 0;
     color:#fff;
+    text-align: left;
+
 }
 h1{
     font-family: Reem Kufi;
@@ -111,8 +118,8 @@ h1{
     display: none;
 }
 .Handmade{
-   padding: 200px 200px 50px;
    background: #f1eeea;
+   padding: 100px 0;
 }
 .hwp{
     text-align: center;
@@ -129,35 +136,27 @@ h1{
     font-family: 'Muli', sans-serif;
 }
 .part-six{
-    padding: 100px 0;
-    background: #f1eeea;
-}
-.sub-part-six{
     display:flex;
-    padding: 0 180px;
 }
-.sub-part-six>div{
+.part-six>div{
     width: 25%;
-    padding: 20px;
+    background: #f1eeea;
+    padding: 100px 0;
 }
 .image-5{
     object-fit:cover;
-    width: 100%;
+    width: 450px;
     height: 300px;
 }
 .money{
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 50px;
+    text-align: left;
      font-family: 'Muli', sans-serif;
 }
-.only{
-    padding-top: 20px;
-    background-color:#656b50;
-}
 .aram{
+    background-color:#656b50;
     display: flex;
-    padding: 0 30px;
-    margin: 0 200px;
 }
 .aram-sub1{
     width: 50%;
