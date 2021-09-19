@@ -18,7 +18,7 @@ a{
     color:black;
     font-family: 'Mulish', sans-serif;
     display:block;
-    padding: 10px 0;
+    font-size: 20px;
 }
 .sub-menu li a{
     padding: 10px 0;
@@ -190,7 +190,6 @@ h1{
 .one{
     padding: 15px 0;
 }
-
 .fas{
     color:#b7976a;
     padding-top: 15px;
@@ -210,6 +209,9 @@ h1{
      padding: 10px 0 15px;
  }
 @media screen and (max-width:768px) {
+    a{
+        padding: 10px 0;
+    }
     .ford{
         padding: 0 10px 0 5px;
         font-size: 13px;
@@ -236,19 +238,26 @@ h1{
         top:75px;
         left: 0;
         flex-direction: column;
-        background-color: red;
+        background-color:#f1eeea;
         width: 100%;
         display:none;
+    }
+    .nav{
+        text-align: center;
+        width: 50%;
+    }
+    .chevrolet{
+     margin: auto;
     }
     .woa{
         flex-direction: column;
     }
     .icon-asum{
-        display: block;
         margin: 23px 15px;
     }
     .icon-mobile{
         font-size:20px;
+        display: block;
     }
     .icon-asum:hover .ford{
         display:block;
@@ -259,14 +268,12 @@ h1{
     }
     .aram-sub1{
         width: 100%;
-        padding: 0;
         text-align: center;
         margin: auto;
         padding-bottom: 30px;
     }
     .aram-sub2{
         width: 100%;
-        padding: 0;
         margin: auto;
     }
     .font-handmade{
@@ -311,10 +318,16 @@ h1{
     .aram{
         padding:0 30px;
         flex-wrap: wrap;
-        width: auto;
     }
     .aram-sub1{
-        margin: 50px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .aram-sub2{
+        width: 100%;
+        margin: auto;
     }
    .image-5{
       width: 200px;
