@@ -41,7 +41,7 @@ ul li .menu:hover{
 ul li .sub-menu{
     display: none;
     position:absolute;
-    width: 250px;
+    width: 350px;
 }
 ul li:hover .sub-menu{
     display:block;
@@ -116,7 +116,29 @@ h1{
    background: #f1eeea;
    padding: 100px 0;
 }
+.left-arrow{
+    font-size: 50px;
+    position: relative;
+    top:100px;
+    left:63px;
+}
+.right-arrow{
+    font-size: 50px;
+    position: relative;
+    top:110px;
+    left: 1674px;
+}
+.one-and-one{
+    font-family: Reem Kufi;
+    font-size: 250px;
+    color:#d6d0c9;
+    position:relative;
+    bottom: 290px;
+    left: 824px;
+    height: 20px;
+}
 .hwp{
+    height: 100px;
     text-align: center;
     padding-bottom: 30px;
     font-size: 50px;
@@ -293,6 +315,7 @@ h1{
         width: 50%;
         box-sizing: border-box;
     }
+    
 }
 @media screen and (max-width : 992px) and (min-width: 768px){
     .ford{
@@ -332,12 +355,9 @@ h1{
    .image-5{
       width: 200px;
       height: 200px;
-  }
+    }
    .part-six{
       flex-wrap: wrap;
-   }
-  .container{
-    max-width: 1900px;
-    width: auto;
-  }
+      width: auto;
+    }
 }
