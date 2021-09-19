@@ -175,7 +175,7 @@ h1{
 }
 .conten-x{
     font-size: 90px;
-    padding: 100px 0 30px;
+    padding: 50px 0;
     font-family: 'Reem Kufi', sans-serif;
 }
 .conten-y{
@@ -255,17 +255,19 @@ h1{
     }
     .aram{
         flex-wrap: wrap;
-        height:auto;
-        text-align: center;
         padding: 0 20px;
     }
     .aram-sub1{
         width: 100%;
         padding: 0;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 30px;
     }
     .aram-sub2{
         width: 100%;
         padding: 0;
+        margin: auto;
     }
     .font-handmade{
         width: 100%;
@@ -308,15 +310,12 @@ h1{
     }
     .aram{
         padding:0 30px;
+        flex-wrap: wrap;
+        width: auto;
     }
     .aram-sub1{
         margin: 50px;
-        padding: 0;
     }
-    .aram-sub2{
-       margin: 50px;
-       padding: 0;
-   }
    .image-5{
       width: 200px;
       height: 200px;
@@ -326,8 +325,6 @@ h1{
    }
   .container{
     max-width: 1900px;
-    width: 100%;
-    margin: auto;
-    padding: 0 20px;
-}
+    width: auto;
+  }
 }
