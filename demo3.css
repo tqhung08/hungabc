@@ -133,11 +133,12 @@ h1{
     font-size: 250px;
     color:#d6d0c9;
     position:absolute;
-    bottom: -72px;
+    top:830px;
     right: 45%;
 }
 .hwp{
     position: relative;
+    z-index: 1000;
     height: 100px;
     text-align: center;
     padding-bottom: 30px;
