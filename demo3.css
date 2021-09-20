@@ -132,12 +132,12 @@ h1{
     font-family: Reem Kufi;
     font-size: 250px;
     color:#d6d0c9;
-    position:relative;
-    bottom: 290px;
-    left: 824px;
-    height: 20px;
+    position:absolute;
+    bottom: -72px;
+    right: 45%;
 }
 .hwp{
+    position: relative;
     height: 100px;
     text-align: center;
     padding-bottom: 30px;
@@ -267,6 +267,8 @@ h1{
     .nav{
         text-align: center;
         width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
     }
     .chevrolet{
      margin: auto;
@@ -318,6 +320,9 @@ h1{
     
 }
 @media screen and (max-width : 992px) and (min-width: 768px){
+    .nav{
+        margin-top: 10px;
+    }
     .ford{
         padding: 0 10px 0 5px;
     }
