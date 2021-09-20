@@ -128,22 +128,25 @@ h1{
     top:110px;
     left: 1674px;
 }
-.one-and-one{
-    font-family: Reem Kufi;
-    font-size: 250px;
-    color:#d6d0c9;
-    position:absolute;
-    top: -175px;
-    right: 45%;
-}
 .hwp{
     position: relative;
+}
+.wood-products{
+    position: absolute;
+    top:-127px;
+    right: 640px;
     z-index: 1000;
-    height: 100px;
     text-align: center;
     padding-bottom: 30px;
     font-size: 50px;
-    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Reem Kufi', sans-serif;   
+}
+.one-and-one{
+    font-size: 200px;
+    color: #d8d3cb;
+    position: absolute;
+    top: -120px;
+    right: 200px;
 }
 .font-handmade{
     font-size: 25px;
