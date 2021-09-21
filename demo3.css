@@ -133,9 +133,8 @@ h1{
 }
 .wood-products{
     position: absolute;
-    top:-127px;
-    right: 640px;
-    z-index: 1000;
+    bottom: 11px;
+    right: 36%;
     text-align: center;
     padding-bottom: 30px;
     font-size: 50px;
