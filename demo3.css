@@ -227,6 +227,7 @@ h1{
      display: flex;
      width: 70%;
      margin: auto;
+     padding: 100px 0;
  }
  .font-one{
      width: 50%;
