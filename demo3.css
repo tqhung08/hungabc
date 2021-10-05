@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    max-width: 1900px;
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
 .kia{
     display:flex;
     background: #f1eeea;
@@ -114,55 +121,38 @@ h1{
 }
 .Handmade{
    background: #f1eeea;
-   padding: 100px 0;
+   padding: 50px 0;
 }
-.left-arrow{
-    font-size: 50px;
-    position: relative;
-    top:100px;
-    left:63px;
-}
-.right-arrow{
-    font-size: 50px;
-    position: relative;
-    top:110px;
-    left: 1674px;
+.container-sub{
+    text-align: center;
+    position: absolute;
+    top:70px;
+
 }
 .hwp{
     position: relative;
+    width: 70%;
+    margin: auto;
 }
 .wood-products{
-    position: absolute;
-    bottom: 11px;
-    right: 36%;
-    text-align: center;
-    padding-bottom: 30px;
     font-size: 50px;
-    font-family: 'Reem Kufi', sans-serif;   
+    font-family: 'Reem Kufi', sans-serif; 
+    padding: 50px;
 }
 .one-and-one{
     font-size: 200px;
     color: #d8d3cb;
-    position: absolute;
-    top: -120px;
-    right: 200px;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif; 
+    
 }
 .font-handmade{
     font-size: 25px;
-    text-align: center;
-    width: 70%;
-    margin: auto;
     color:gray;
     font-family: 'Muli', sans-serif;
 }
 .bg-container{
     background: #f1eeea;
-}
-.container{
-    max-width: 1900px;
-    width: 100%;
-    margin: auto;
-    padding: 0 20px;
 }
 .part-six{
     display:flex;
@@ -232,6 +222,17 @@ h1{
      display:block;
      color: #fff;
      padding: 10px 0 15px;
+ }
+ .natural-Materials{
+     display: flex;
+     width: 70%;
+     margin: auto;
+ }
+ .font-one{
+     width: 50%;
+ }
+ .font-two{
+     width: 50%;
  }
 @media screen and (max-width:768px) {
     a{
