@@ -438,7 +438,7 @@
     padding: 0 10px;
 }
 .image-three{
-    transition: transfrom 0.5s;
+    transition: all 0.5s
 }
 .pineal .image-three:hover{
     transform: scale(1.5);
