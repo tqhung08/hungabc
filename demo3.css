@@ -316,6 +316,7 @@
 }
 .section-tenth{
     background-color: #f1eeea;
+    padding: 50px 0;
 }
 .total-ten{
     display: flex;
@@ -327,6 +328,8 @@
 .Contacts{
     font-size: 90px;
     font-family: 'Reem Kufi', sans-serif;
+    text-align: left;
+    padding-left: 100px;
 }
 .small-ten-two{
     width: 50%;
@@ -340,6 +343,97 @@
 }
 .Unique, .contact{
     padding: 20px 0;
+}
+.section-eleven{
+    background-color: #2a2525;
+}
+.eleven-total{
+    text-align: center;
+}
+.image-eleven{
+    width: 100px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+}
+.wrap{
+    padding: 20px;
+}
+.section-end{
+    background-color: rebeccapurple;
+}
+.distance{
+    padding: 20px 30px;
+}
+.change-one{
+    color: #b7976a;
+    padding:10px;
+}
+.change-two{
+    color:white
+}
+.jamb{
+    width: 5px;
+    height: 100px;
+    color: #b7976a;
+    border-left:solid 1px #b7976a;
+    margin: auto;
+}
+.end{
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+.Features{
+    text-align: center;
+}
+.photo{
+    display: flex;
+    max-width: 100%;
+}
+.for-you{
+    width: 33.33%;
+    padding: 10px;
+}
+.image-three{
+    width: 100%;
+    height: 300px;
+    transition: transform 1s;
+}
+.image-three:hover{
+    transform: calc(1,1);
+}
+.pineal{
+    padding: 10px;
+}
+.Eco-Production{
+    text-align: center;
+    padding: 0 40px;
+}
+.View-More{
+    display: flex;
+    justify-content: center;
+}
+.section-three{
+    padding: 50px 0;
+}
+.way-way{
+    padding: 10px;
+    
+}
+.Our-Features{
+    font-family: 'Reem Kufi', sans-serif;
+}
+.lobortis{
+    font-family: 'Muli', sans-serif;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+}
+.inside{
+    color: #b7976a;
+    padding: 0 10px;
 }
 @media screen and (max-width:768px) {
     .container{
@@ -417,7 +511,7 @@
     .font-handmade{
         width: 100%;
     }
-    .image-5{
+    .image-five{
         width: 100%;
         height: 200px;
     }
@@ -440,7 +534,7 @@
         padding: 0;
         width: 100%;
     }
-    .image-7{
+    .image-seven{
         width: 100%;
     }
    .font-two{
@@ -488,7 +582,7 @@
         width: 100%;
         margin: auto;
     }
-   .image-5{
+   .image-five{
       width: 200px;
       height: 200px;
     }
@@ -504,7 +598,7 @@
         padding: 0;
         width: 100%;
     }
-    .image-7{
+    .image-seven{
         width: 100%;
     }
    .font-two{
