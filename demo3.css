@@ -398,10 +398,6 @@
     width: 33.33%;
     padding: 10px;
 }
-.image-three{
-    width: 100%;
-    height: 300px;
-}
 .pineal{
     overflow: hidden;
     width: 100%;
@@ -437,7 +433,9 @@
     padding: 0 10px;
 }
 .image-three{
-    transition: all 0.5s
+    transition: all 0.5s;
+    width: 100%;
+    height: 300px;
 }
 .pineal .image-three:hover{
     transform: scale(1.5);
@@ -447,6 +445,7 @@
 @media screen and (max-width:768px) {
     .container{
         padding: 0;
+        margin: 0;
     }
     a{
         padding: 10px 0;
@@ -524,9 +523,6 @@
         width: 100%;
         height: 200px;
     }
-    .container{
-        max-width: 500px;
-    }
     .part-six{
         flex-wrap: wrap;
     }
@@ -552,6 +548,91 @@
    .YouShould{
        text-align: center;
    }
+   .photo{
+       flex-direction: column;
+   }
+   .for-you{
+       width: 100%;
+   }
+   .lobortis{
+       width: 400px;
+       font-size: 15px;
+   }
+   .total-part-four{
+       flex-direction: column;
+       margin: 0 20px;
+   }
+   .over-nive{
+       flex-direction: column;
+   }
+   .four-one{
+       width: 100%;
+   }
+   .four-two{
+       width: 100%;
+       padding: 0;
+   }
+   .one-over-nive{
+       width: 100%;
+       margin: 0;
+       padding: 0;
+   }
+   .two-over-nive{
+       width: 100%;
+       margin: 0;
+       padding: 0;
+   }
+   .big-size{
+       font-size: 50px;
+       text-align: center;
+   }
+   .medium-size{
+       font-size: 20px;
+       text-align: center;
+   }
+   .four-parts{
+       padding: 50px 10px;
+   }
+   .aram-sub{
+       flex-direction: column;
+   }
+   .total-ten{
+       flex-direction: column;
+   }
+   .small-ten-two{
+    text-align: center;
+    width: 100%;
+   }
+   .contacts{
+       flex-direction: column;
+   }
+   .Our-Features{
+       font-size: 40px;
+   }
+   .section-three{
+       padding: 50px 20px;
+   }
+   .pineal{
+       text-align: center;
+   }
+   .wood-products   {
+    font-size: 30px;
+    padding: 30px;
+   }
+   .font-handmade{
+    padding-top: 20px;
+    font-size: 20px;
+   }
+   .Handmade{
+       height: auto;
+       padding: 0;
+   }
+   .one-and-one{
+       font-size: 150px;
+   }
+   .hwp{
+       height: 350px;
+   }
 }
 @media screen and (max-width : 992px) and (min-width: 768px){
     .nav{
@@ -572,20 +653,22 @@
         font-size: 30px
     }
     .mazda{
-        margin-left:20px;
+        margin-right: 0;
     }
     h1{
         font-size:60px
     }
     .aram{
         padding:0 30px;
-        flex-wrap: wrap;
+    }
+    .aram-sub{
+        flex-direction: column;
     }
     .aram-sub-one{
         width: 100%;
-        text-align: center;
+        text-align: left;
         margin: auto;
-        padding-bottom: 30px;
+        padding:30px
     }
     .aram-sub-two{
         width: 100%;
@@ -600,17 +683,73 @@
       width: auto;
     }
     .natural-Materials{
-        flex-direction: column;
         width: 100%;
+        flex-direction: column;
     }
     .font-one{
-        padding: 0;
-        width: 100%;
-    }
-    .image-seven{
+        padding: 0 10px;
         width: 100%;
     }
    .font-two{
+       padding-right: 0;
        width: 100%;
+   }
+   .Contacts{
+       font-size: 70px;
+       padding: 0;
+   }
+   .Unique{
+       font-size: 30px;
+   }
+   .contact {
+    font-size: 15px;
+   }
+   .conten-x ,.big-size ,.Store{
+       font-size: 50px;
+   }
+   .conten-y ,.medium-size , .fix-sub{
+       font-size: 20px;
+   }
+   .small , .fix{
+       font-size: 15px;
+   }
+   .image-four{
+    height: 100%;   
+    object-fit: cover;
+   }
+   .for-you{
+       padding: 0;
+   }
+   .wood-products{
+       font-size: 30px;
+   }
+   .one-and-one{
+       font-size: 150px;
+   }
+   .container-sub{
+       top:20%
+   }
+   .font-handmade {
+       font-size: 15px;
+   }
+   .contacts{
+       flex-wrap: wrap;
+   }
+   .total-ten{
+       flex-direction: column;
+   }
+   .small-ten-one{
+       width: 100%;
+   }
+   .mini-map{
+    width: 100%
+   }
+   .small-ten-two {
+       width: 100%;
+   }
+   .contacts {
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
    }
 }
