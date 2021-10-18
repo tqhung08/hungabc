@@ -332,8 +332,6 @@
 .Contacts{
     font-size: 90px;
     font-family: 'Reem Kufi', sans-serif;
-    text-align: left;
-    padding-left: 100px;
 }
 .small-ten-two{
     width: 50%;
@@ -641,7 +639,13 @@
     .end{
         font-size: 10px;
     }
+    .google-map{
+        width: 100%;
+    }
     .mini-map{
+        width: 90%;
+    }
+    .small-ten-one{
         width: 100%;
     }
 }
