@@ -3,7 +3,7 @@
     padding: 0;
 }
 .container{
-    max-width: 1600px;
+    max-width: 1900px;
     width: 100%;
     margin: auto;
     padding: 0 20px;
@@ -119,7 +119,7 @@
 .icon-mobile{
     display: none;
 }
-.four-parts{
+.section-four{
     padding: 100px 0 50px 0;
     background-color: #eee8df;
 }
@@ -283,10 +283,12 @@
  .font-one{
      width: 50%;
      padding-left: 100px;
+     box-sizing: border-box;
  }
  .font-two{
      width: 50%;
      padding-right: 100px;
+     box-sizing: border-box;
  }
  .choose{
      padding-bottom: 50px;
@@ -414,6 +416,8 @@
 }
 .section-three{
     padding: 50px 0;
+    max-width: 2000px;
+    width: 100%;
 }
 .way-way{
     padding: 10px;
@@ -425,7 +429,7 @@
 .lobortis{
     font-family: 'Muli', sans-serif;
     padding: 10px;
-    width: 800px;
+    width: 90%;
     margin: auto;
 }
 .inside{
@@ -611,6 +615,7 @@
    }
    .section-three{
        padding: 50px 20px;
+       box-sizing: border-box;
    }
    .pineal{
        text-align: center;
@@ -633,6 +638,12 @@
    .hwp{
        height: 350px;
    }
+    .end{
+        font-size: 10px;
+    }
+    .mini-map{
+        width: 100%;
+    }
 }
 @media screen and (max-width : 992px) and (min-width: 768px){
     .nav{
@@ -668,7 +679,8 @@
         width: 100%;
         text-align: left;
         margin: auto;
-        padding:30px
+        padding:30px;
+        box-sizing: border-box;
     }
     .aram-sub-two{
         width: 100%;
