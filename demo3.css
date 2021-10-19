@@ -168,7 +168,7 @@
 .small{
     padding: 10px 0;
 }
-.Handmade{
+.section-five{
    background: #f1eeea;
    padding: 50px 0;
 }
@@ -206,7 +206,6 @@
 .part-six{
     display:flex;
     padding: 50px 0;
-   
 }
 .part-six-sub{
     padding: 0 10px;
@@ -255,10 +254,6 @@
 }
 .one{
     padding: 15px 0;
-}
-.fas{
-    color:#b7976a;
-    padding-top: 15px;
 }
 .font-sub{
     display:flex;
@@ -444,6 +439,20 @@
 }.View-More:hover .arrow{
     transform: scale(1.5);
 }
+.left-arrow{
+    position: absolute;
+    top: 72%;
+    left: -6%;
+}
+.right-arrow{
+    position: absolute;
+    top: 73%;
+    right: -6%;
+}
+.right-arrow, .left-arrow{
+    font-size: 50px;
+    color: #d8cfc3;
+}
 @media screen and (max-width:768px) {
     .container{
         padding: 0;
@@ -626,7 +635,7 @@
     padding-top: 20px;
     font-size: 20px;
    }
-   .Handmade{
+   .section-five{
        height: auto;
        padding: 0;
    }
@@ -648,6 +657,10 @@
     .small-ten-one{
         width: 100%;
     }
+    .right-arrow, .left-arrow{
+        font-size: 40px;
+        top:42%;
+       }
 }
 @media screen and (max-width : 992px) and (min-width: 768px){
     .nav{
@@ -767,5 +780,9 @@
     flex-wrap: wrap;
     width: 50%;
     margin: auto;
+   }
+   .right-arrow, .left-arrow{
+    font-size: 40px;
+    top:42%;
    }
 }
