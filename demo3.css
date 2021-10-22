@@ -9,6 +9,12 @@
     padding: 0 20px;
     box-sizing: border-box;
 }
+.mbr-text{
+    font-family: 'Muli', sans-serif;
+}
+.section-text{
+    font-family: 'Reem Kufi', sans-serif;
+}
 .kia{
     display:flex;
     background: #f1eeea;
@@ -23,7 +29,6 @@
     text-decoration:none;
     margin: 0 30px;
     color:black;
-    font-family: 'Mulish', sans-serif;
     display:block;
     font-size: 20px;
 }
@@ -67,7 +72,7 @@
 }
 .woo{
     font-size: 40px;
-    font-family: 'Reem Kufi', sans-serif;
+    font-weight: 700;
 }
 .lexus,.ford{
     padding: 10px 50px;
@@ -103,17 +108,14 @@
 
 }
 .Store{
-    font-family: Reem Kufi;
     font-size:70px;
     margin:0;
 }
 .fix-sub{
-    font-family: Mulish;
     font-size: 30px;
     padding-top :30px;
 }
 .fix{
-    font-family: Mulish;
     font-size: 20px;
 }
 .icon-mobile{
@@ -140,13 +142,11 @@
 .big-size{
     font-size: 90px;
     color: #3a3835;
-    font-family: 'Reem Kufi', sans-serif;
     font-weight: 600;
 }
 .medium-size{
     font-size:30px;
     font-weight: 100;
-    font-family: 'Muli', sans-serif;
 }
 .over-nive{
     display: flex;
@@ -185,20 +185,17 @@
 }
 .wood-products{
     font-size: 50px;
-    font-family: 'Reem Kufi', sans-serif; 
     padding: 50px;
 }
 .one-and-one{
     font-size: 200px;
     color: #d8d3cb;
     text-align: center;
-    font-family: 'Reem Kufi', sans-serif; 
     
 }
 .font-handmade{
     font-size: 25px;
     color:gray;
-    font-family: 'Muli', sans-serif;
 }
 .bg-container{
     background: #f1eeea;
@@ -219,7 +216,6 @@
 .money{
     font-size: 30px;
     padding-left: 20px;
-     font-family: 'Muli', sans-serif;
 }
 .aram{
     background-color:#656b50;
@@ -241,12 +237,9 @@
 .conten-x{
     font-size: 90px;
     padding: 50px 0;
-    font-family: 'Reem Kufi', sans-serif;
 }
 .conten-y{
-    font-size:30px;
-    font-family: 'Muli', sans-serif;
-    font-weight:100;
+    font-size:25px;
 }
 .image-six{
     width: 100%;
@@ -322,21 +315,19 @@
 }
 .small-ten-one{
     width: 50%;
-    text-align: center;
 }
 .Contacts{
     font-size: 90px;
-    font-family: 'Reem Kufi', sans-serif;
 }
 .small-ten-two{
     width: 50%;
-    font-family: 'Muli', sans-serif;
 }
 .Unique{
     font-size: 40px;
 }
 .contact{
     font-size: 20px;
+    width: 85%;
 }
 .Unique, .contact{
     padding: 20px 0;
@@ -416,11 +407,7 @@
     padding: 10px;
     
 }
-.Our-Features{
-    font-family: 'Reem Kufi', sans-serif;
-}
 .lobortis{
-    font-family: 'Muli', sans-serif;
     padding: 10px;
     width: 90%;
     margin: auto;
